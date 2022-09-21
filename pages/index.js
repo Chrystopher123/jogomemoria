@@ -133,14 +133,14 @@ function MemoryGame({ options, setOptions, highScore, setHighScore }) {
   const [flippedIndexes, setFlippedIndexes] = useState([])
 
   const colors = [
-    'url(./brasil.png)',
-    'url(./inglaterra.png)',
-    'url(./franca.jpg)',
-    'url(./alemanha.jpg)',
-    'url(./espanha.jpg)',
-    'url(./portugal.jpg)',
-    'url(./argentina.png)',
-    'url(./italia.jpg)'
+    'url(./sapo.png)',
+    'url(./tigre.svg)',
+    'url(./vaca.jpg)',
+    'url(./sapo.jpg)',
+    'url(./peixe.jpg)',
+    'url(./cao.jpg)',
+    'url(./gato.png)',
+    'url(./porco.jpg)'
   ]
 
   useEffect(() => {
